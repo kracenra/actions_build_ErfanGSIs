@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/20.1.2/miui_MI6_20.1.2_fdfe429126_9.0.zip
+  ROM_URL: https://bigota.d.miui.com/20.1.9/miui_MI6_20.1.9_478bfa515a_9.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer gof final/GSI.zip
+              ./transfer bit final/GSI.zip
 
          
             
