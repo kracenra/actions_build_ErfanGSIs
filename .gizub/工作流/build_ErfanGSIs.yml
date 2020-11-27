@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://bigota.d.miui.com/20.1.9/miui_MI6_20.1.9_478bfa515a_9.0.zip
-  ROM_NAME: MIUI
+  ROM_NAME: MIUI OS
   TZ: Asia/Shanghai
 
 jobs:
